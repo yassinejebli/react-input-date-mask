@@ -1,5 +1,12 @@
 # react-input-date-mask
 
+# The changes made by me (Yassine JEBLI)
+This library is used in `Shared/Form/Elements/DateRangePicker`, I needed it for entering date range in masked inputs, here are the changes done in the forked version:
+
+* Added onFocus handler (line 58 & 367)
+* Updated React version in package.json (downgrade)
+
+
 Input date masking component for React. React-input-date-mask requires React 16.8.0 or later.
 
 #### [Demo](https://elter1109.github.io/reactInputDateMask/)
